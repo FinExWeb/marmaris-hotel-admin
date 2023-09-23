@@ -22,11 +22,6 @@ import { MdPeople, MdMessage, MdStars } from "react-icons/md";
 
 const NotificationCardList = [
   {
-    numbers: 543,
-    texts: "Saytga qo'shilganlar soni",
-    SetIcons: <MdPeople />,
-  },
-  {
     numbers: 23455,
     texts: "Baxolashlar soni",
     SetIcons: <MdMessage />,

@@ -23,7 +23,7 @@ import {
   AiOutlineSearch,
   AiOutlineSetting,
 } from "react-icons/ai";
-import { MdLogout, MdOutlineAnalytics, MdUpdate } from "react-icons/md";
+import { MdImage, MdLogout, MdOutlineAnalytics, MdUpdate } from "react-icons/md";
 
 import { ThemeContext } from "./../../App";
 import { useLocation } from "react-router-dom";
@@ -118,6 +118,12 @@ const linksArray = [
     label: "Habarlar",
     icon: <MdOutlineAnalytics />,
     to: "/dashbaord/messages",
+    notification: 3,
+  },
+  {
+    label: "Rasmlar",
+    icon: <MdImage />,
+    to: "/dashbaord/images",
     notification: 3,
   },
 ];

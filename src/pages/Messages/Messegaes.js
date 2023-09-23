@@ -43,7 +43,9 @@ const Messegaes = () => {
 
             return (
               <EvolutionCard key={index}>
-                <EvolutionBigText>Anonim habar: #{index + 1}</EvolutionBigText>
+                <EvolutionBigText>
+                  Anonim habar: {index + 1} xona
+                </EvolutionBigText>
                 <EvolutionSmallText>
                   fdfndkn;fdngdfnk;n;jn;kjn;kjnb;kgfbnbknbnbjgnbijgnbjnbjkgnb
                   gkfgdfkgnkdfngbkdfngnkengkngkjn
