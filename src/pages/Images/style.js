@@ -5,7 +5,7 @@ export const Containers = styled.div`
   justify-content: space-between;
   align-items: center;
   background: rgb(255, 255, 255);
-  max-width: 400px;
+  max-width: 600px;
   color: #009688;
   margin: 10px;
   flex-direction: column;
@@ -15,8 +15,6 @@ export const SContainer = styled.div`
   overflow: auto;
   height: 100vh;
   max-width: 100%;
-  flex-wrap: wrap;
-  display: flex;
 `;
 
 export const ImagesContainer = styled.div`
